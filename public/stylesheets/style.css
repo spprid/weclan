@@ -258,7 +258,14 @@ input[type=text],input[type=password]{display:inline-block; width:100%; height:4
 .result_list li .inner .date{font-size:10px;line-height:16px;text-align:center;color:#aaa}
 
 /* 랭킹표 */
-.raking{padding:10px}
+.raking{padding:10px 0}
+.raking .tbl_rank{width:100%;border-collapse:collapse;table-layout:fixed;}
+.raking .tbl_rank th{padding:10px 8px;border-top:1px solid #331f1f;text-align:center;background: linear-gradient(0deg, #090f02 50%, #0b1103 50%);font-size:12px}
+.raking .tbl_rank td{padding:8px 8px;border-top:1px solid #331f1f;text-align:center;font-size:12px;line-height:40px}
+.raking .tbl_rank td.ord{font-family:'SCoreDreamBold'}
+.raking .tbl_rank td.user{text-align:left}
+.raking .kind img{width:40px;height:40px;margin:0 auto;padding:3px;border:2px solid #a917f1;border-radius:3px;}
+.raking .userid{margin-left:2px;font-size:14px;font-weight:bold}
 
 .accordion > li{border-bottom:1px solid #202635}
 .accordion > li > a{position:relative;display:block;padding:15px 5px 13px 5px;font-size:13px}

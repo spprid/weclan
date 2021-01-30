@@ -125,7 +125,7 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
 
 .btn.type1{background:#037eb7;border:1px solid #037eb7; color:#fff;}
 .btn.type2{background:#fff;border:1px solid #fff; color:#037eb7;}
-.btn.type3{background:#aaa;border:1px solid #aaa; color:#fff;}
+.btn.type3{background:#800000;border:1px solid #331f1f; color:#fff;}
 
 input[type=text],input[type=password]{display:inline-block; width:100%; height:42px; padding:5px 16px; border:1px solid #d7d9dc;}
 .input_wrap{}
@@ -184,13 +184,24 @@ input[type=text],input[type=password]{display:inline-block; width:100%; height:4
 
 .content{width:100%}
 
-.login_wrap{padding:0 40px}
+/* 로그인 */
+.login_wrap{padding:0 50px}
 .login_wrap .login_tit{padding:40px 0;text-align:center;font-size:16px;font-weight:bold;color:#00aeff}
 .login_wrap .login_tit strong{color:yellow;font-weight:bold}
 .login_wrap .login_input_wrap{margin-bottom:20px}
 .login_wrap .login_input_wrap input{width:100%;border:none;border-bottom:1px solid #00aeff;background-color:transparent;color:#fff;font-weight:bold;font-size:14px}
 .login_wrap .login_input_wrap input[type=text]::placeholder,
 .login_wrap .login_input_wrap input[type=password]::placeholder{font-size:12px !important}
+
+.join_wrap{padding:10px}
+.join_wrap .join_tit{padding:40px 0;text-align:center;font-size:16px;font-weight:bold;color:#00aeff}
+.join_wrap .join_tit strong{color:yellow;font-weight:bold}
+.join_wrap .terms{margin-bottom:20px}
+.join_wrap .terms .text{margin-top:5px;}
+.join_wrap .terms .text .inner{padding:10px;border-radius:5px;color:#aaa;background:#292b33}
+.join_wrap .input_tit{display:inline-block;padding-bottom:5px;font-size:14px;}
+.join_wrap .input_tit .req{color:yellowgreen;margin-left:5px;font-size:11px}
+.join_wrap .cmt{display:block;margin:5px 0 0 5px;font-size:11px;color:#999}
 
 /* 클랜소개 */
 .introduce{padding:40px 10px}

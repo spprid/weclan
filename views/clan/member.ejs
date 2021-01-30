@@ -1,8 +1,21 @@
+<%- include('../header')%>
 <section class="content">
+    <div class="tab_area">
+        <ul class="tab col3">
+            <li class="active"><a href="#" data-tab="tab1"><span>전체</span></a></li>
+            <li><a href="#" data-tab="tab2"><span>운영진</span></a></li>
+            <li><a href="#" data-tab="tab3"><span>일반회원</span></a></li>
+        </ul>
+    </div>
+
     <div class="members">
         <div class="tit">※ 클랜원안내에 등록된 회원만이 We`Clan 인증회원입니다.</div>
         <div class="input_wrap mb10 pl10 pr10">
             <input type="text" placeholder="클랜원 아이디를 입력해주세요" />
+        </div>
+
+        <div class="btn_full_col1 mb10 pr10 pl10">
+            <a href="#" class="btn type3"><i class="fa fa-search"></i>&nbsp;회원검색</a>
         </div>
 
         <div>
@@ -107,3 +120,4 @@
         </div>
     </div>
 </section>
+<%- include('../footer')%>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>We`Clan</title>
+    <link rel="stylesheet" href="/stylesheets/style.css?v=1">
+    <link rel="stylesheet" href="/stylesheets/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/ui.js"></script>
+</head>
+
+<body>
+<div class="wrap">
+    <header class="header">
+        <h1 class="page_tit"><a href="/"><%=title%></a></h1>
+
+        <nav class="nav">
+            <div class="btn_lnb">
+                <a href="#"><span class="blind">메뉴보기</span></a>
+            </div>
+
+            <div class="btn_auth">
+                <a href="/users/login"><i class="fa fa-user-check"></i><span>로그인</span></a>
+            </div>
+
+            <div class="lnb_wrap">
+                <div class="lnb_area">
+                    <!-- LNB close -->
+                    <button class="btn_close"><span class="blind">메뉴 닫기</span></button>
+
+                    <div class="lnb_top">
+                        <div class="login_info">
+                            <!-- 로그인 전 -->
+
+                            <span class="profile"><img src="http://www.clanfox.me/fox/images/img_unit_T.png"
+                                    alt=""></span>
+                            <div class="user_form">
+                                <div class="login_title">
+                                    <a href="/users/login" class="txt_link">로그인 해 주세요</a>
+                                </div>
+                            </div>
+
+                            <!--//로그인 전  -->
+
+                            <!-- 로그인 후 -->
+                            <!--
+                        <span class="profile"><img src="https://static.starcraft.com/bgw/images/content/races/terran/terran-bust-dark.074a646137ec4cb9dd4ef312f2ef0022615ab107.png" alt=""></span>
+                        <div class="user_form">
+                            <div class="login_title">
+                                <span class="txt"><em>홍길동</em>님 반갑습니다!</span>
+                            </div>
+                            <div class="btn_wrap">
+                                <span class="point"><em>2,300</em>POINT</span>
+                                <a href="#" class="logout">로그아웃</a>
+                            </div>
+                        </div>
+                    -->
+                            <!-- //로그인 후 -->
+                        </div>
+                    </div>
+                    <div class="lnb_quick_wrap">
+                        <ul class="lnb_quick">
+                            <li class="quick_menu"><a href="/clan/member"><i class="fa fa-user"></i><span>클랜원소개</span></a></li>
+                            <li class="quick_menu"><a href="/rank/ranking"><i class="fa fa-crown"></i><span>순위표</span></a></li>
+                            <li class="quick_menu"><a href="/bbs/1"><i class="fa fa-comments"></i><span>공지사항</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lnb_menu_wrap">
+                        <ul class="lnb_menu">
+                            <li>
+                                <a href="#" class="menu_depth1"><span>클랜안내</span></a>
+                                <ul class="menu_depth2">
+                                    <li><a href="/clan">클랜소개</a></li>
+                                    <li><a href="/clan/member">클랜원소개</a></li>
+                                    <li><a href="/clan/join">가입안내</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="menu_depth1">커뮤니티</a>
+                                <ul class="menu_depth2">
+                                    <li><a href="/bbs/1">공지사항</a></li>
+                                    <li><a href="/bbs/2">자유게시판</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="menu_depth1">랭킹전</a>
+                                <ul class="menu_depth2">
+                                    <li><a href="/rank">결과등록</a></li>
+                                    <li><a href="/rank/ranking">순위표</a></li>
+                                    <li><a href="#">전적조회</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="menu_depth1"><span>마이페이지</span></a>
+                                <ul class="menu_depth2">
+                                    <li><a href="#">회원정보수정</a></li>
+                                    <li><a href="#">회원탈퇴</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
